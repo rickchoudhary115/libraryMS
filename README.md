@@ -1,280 +1,257 @@
 <div align="center">
 
-# 📚 Library Management System
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:4f46e5,100:9333ea&height=220&section=header&text=LibraryMS&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Library%20Management%20System&descSize=22&descAlignY=60&animation=fadeIn" width="100%" alt="LibraryMS banner"/>
 
-**A modern full-stack library management platform built with the MERN stack.**
-
-Manage books, members, issue requests, returns, availability and library operations from one clean dashboard.
-
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-Fast-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-![GitHub repo size](https://img.shields.io/github/repo-size/rickchoudhary115/library_management?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/rickchoudhary115/library_management?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/rickchoudhary115/library_management?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/rickchoudhary115/library_management?style=flat-square)
+<a href="https://github.com/rickchoudhary115/library_management">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&lines=Manage+books+%26+members+effortlessly;Request+%E2%86%92+Approve+%E2%86%92+Return+workflow;Automatic+fine+calculation;Built+with+the+MERN+stack" alt="Typing animation"/>
+</a>
 
 <br/>
 
-<img src="screenshots/admin-dashboard.png" alt="Admin Dashboard" width="90%"/>
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+![Repo size](https://img.shields.io/github/repo-size/rickchoudhary115/library_management?style=flat-square&color=8b5cf6)
+![Stars](https://img.shields.io/github/stars/rickchoudhary115/library_management?style=flat-square&color=8b5cf6)
+![Forks](https://img.shields.io/github/forks/rickchoudhary115/library_management?style=flat-square&color=8b5cf6)
+![Issues](https://img.shields.io/github/issues/rickchoudhary115/library_management?style=flat-square&color=8b5cf6)
+![Last commit](https://img.shields.io/github/last-commit/rickchoudhary115/library_management?style=flat-square&color=8b5cf6)
+
+### Manage books, members, issue requests, returns and availability from one clean dashboard.
+
+[**Features**](#-features) •
+[**Screenshots**](#-screenshots) •
+[**Workflow**](#-issue-workflow) •
+[**Quick Start**](#-quick-start) •
+[**API**](#-api-reference) •
+[**Roadmap**](#-roadmap)
+
+<br/>
+
+<img src="screenshots/admin-dashboard.png" alt="LibraryMS Admin Control Center" width="92%"/>
 
 </div>
 
----
-
-## 📑 Table of Contents
-
-- [Overview](#-overview)
-- [Screenshots](#-screenshots)
-- [Features](#-features)
-- [Issue Workflow](#-issue-workflow)
-- [Fine Calculation](#-fine-calculation)
-- [Architecture](#-architecture)
-- [Tech Stack](#%EF%B8%8F-tech-stack)
-- [Project Structure](#-project-structure)
-- [API Endpoints](#-api-endpoints)
-- [Installation](#%EF%B8%8F-installation)
-- [Security](#-security)
-- [Future Improvements](#-future-improvements)
-- [Deployment](#-deployment)
-- [Contributing](#-contributing)
-
----
+<br/>
 
 ## ✨ Overview
 
-The **Library Management System** is a full-stack web application that simplifies running a digital library. It offers separate experiences for **members** and **administrators**: members discover books, request issues and track their borrowing, while admins manage the entire library operation.
+**LibraryMS** is a full-stack web application that replaces paper registers and spreadsheets with a modern digital library. It gives **members** a smooth way to discover and request books, and gives **administrators** a powerful control center to run the whole operation.
 
-### 🎯 What it solves
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Traditional problem | How this app helps |
-| --- | --- |
-| Manual book records | Centralized digital catalog |
-| Difficult issue tracking | Request → approve → return workflow |
-| No real-time availability | Live available / total copies |
-| Manual member management | Member list with activity |
-| Complicated fine calculation | Automatic fines on late returns |
-| No admin overview | Dedicated admin dashboard |
+### 😩 Before
+
+- Manual book records
+- Hard-to-track issued books
+- No real-time availability
+- Manual member management
+- Fines calculated by hand
+- No central admin view
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 With LibraryMS
+
+- Centralized digital catalog
+- Request → approve → return workflow
+- Live available / total copies
+- Member list with issue activity
+- Automatic fine calculation
+- One admin dashboard for everything
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 📸 Screenshots
 
-### 🔐 Login
-
 <div align="center">
-  <img src="screenshots/login.png" alt="Login page" width="380"/>
-</div>
+
+<table>
+<tr>
+<td align="center" width="50%">
+<b>🔐 Login</b><br/><br/>
+<img src="screenshots/login.png" alt="Login" width="80%"/>
+</td>
+<td align="center" width="50%">
+<b>📖 Book Details & Issue Request</b><br/><br/>
+<img src="screenshots/book-details.png" alt="Book details" width="100%"/>
+</td>
+</tr>
+</table>
 
 <br/>
 
-### 👤 Member Dashboard
+<b>👤 Member Dashboard</b><br/><br/>
+<img src="screenshots/member-dashboard.png" alt="Member dashboard" width="92%"/>
 
-Library stats, active issues, pending requests and quick actions in one place.
+<br/><br/>
 
-<div align="center">
-  <img src="screenshots/member-dashboard.png" alt="Member dashboard" width="90%"/>
+<b>📚 Book Catalog with Live Availability</b><br/><br/>
+<img src="screenshots/books.png" alt="Book catalog" width="92%"/>
+
+<br/><br/>
+
+<b>🛡️ Admin Control Center</b><br/><br/>
+<img src="screenshots/admin-dashboard.png" alt="Admin dashboard" width="92%"/>
+
 </div>
 
+<details>
+<summary><b>📊 See one more: dashboard overview</b></summary>
 <br/>
-
-### 📚 Book Catalog
-
-Search by title, author or ISBN and see live availability on every card.
-
 <div align="center">
-  <img src="screenshots/books.png" alt="Book catalog" width="90%"/>
+<img src="screenshots/dashboard-overview.png" alt="Dashboard overview" width="92%"/>
 </div>
-
-<br/>
-
-### 📖 Book Details & Issue Request
-
-View full details and availability, then send an issue request to the administrator.
-
-<div align="center">
-  <img src="screenshots/book-details.png" alt="Book details modal" width="480"/>
-</div>
-
-<br/>
-
-### 🛡️ Admin Control Center
-
-Manage books, issues, members and library activity from a single hub.
-
-<div align="center">
-  <img src="screenshots/admin-dashboard.png" alt="Admin dashboard" width="90%"/>
-</div>
-
-<br/>
-
-### 📊 Dashboard Overview (Admin view)
-
-<div align="center">
-  <img src="screenshots/dashboard-overview.png" alt="Dashboard overview" width="90%"/>
-</div>
+</details>
 
 ---
 
 ## 🚀 Features
 
-### 👤 Member Features
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**🔐 Authentication**
-- User registration and secure login
-- JWT-based authentication
-- Protected routes and automatic session restoration
-- Logout
+### 👤 Members
 
-**📚 Book Discovery**
-- Browse the complete catalog
+🔐 **Authentication**
+- Register & secure login (JWT)
+- Protected routes
+- Automatic session restoration
+
+📚 **Book Discovery**
+- Browse the full catalog
 - Search by title, author or ISBN
-- Detailed book view with availability
-- Responsive book cards
+- Detailed view with availability
 
-**📖 Issue Requests**
-- Request an available book
-- See request status
-- Track currently issued and returned books
-- Monitor due dates and fines
+📖 **Issue Requests**
+- Request any available book
+- Track request status
+- See due dates and fines
+- View returned books
 
-**📊 Member Dashboard**
-- Library statistics
-- Active issues, pending requests, returned books
+📊 **Personal Dashboard**
+- Active issues, pending requests, returns
 - Quick actions
 
-### 🛡️ Admin Features
+</td>
+<td width="50%" valign="top">
 
-**📚 Book Management**
+### 🛡️ Administrators
+
+📚 **Book Management**
 - Add, edit and delete books
-- Manage total and available copies
+- Manage total & available copies
 
-**📋 Issue Management**
-- View issue records and member requests
-- Approve or reject requests
+📋 **Issue Management**
+- Review member requests
+- Approve or reject with one click
 - Manually issue books
-- Process returns and monitor fines
+- Process returns & monitor fines
 
-**👥 Member Management**
-- View registered members and their issue activity
+👥 **Member Management**
+- View registered members
+- See member issue activity
 
-**📊 Admin Dashboard**
-- Central control center with quick administrative actions
+📊 **Admin Hub**
+- Central control center
+- Quick administrative actions
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🔄 Issue Workflow
 
-```text
-┌───────────────┐
-│    Member     │
-└───────┬───────┘
-        │ Request Book
-        ▼
-┌───────────────────┐
-│     Requested     │
-└─────────┬─────────┘
-          ▼
-    ┌─────────────┐
-    │    Admin    │
-    └──────┬──────┘
-      ┌────┴─────┐
-      ▼          ▼
-  Approve      Reject
-      │          │
-      ▼          ▼
-   Issued     Rejected
-      │
-      │ Return
-      ▼
-   Returned
+```mermaid
+flowchart LR
+    A([👤 Member]) -->|Requests book| B[Requested]
+    B --> C{🛡️ Admin}
+    C -->|Approve| D[Issued]
+    C -->|Reject| E[Rejected]
+    D -->|Return| F[Returned]
+    F --> G{On time?}
+    G -->|Yes| H[Fine ₹0]
+    G -->|No| I[Fine calculated]
+
+    style A fill:#4f46e5,color:#fff,stroke:none
+    style C fill:#9333ea,color:#fff,stroke:none
+    style D fill:#16a34a,color:#fff,stroke:none
+    style E fill:#dc2626,color:#fff,stroke:none
+    style F fill:#0ea5e9,color:#fff,stroke:none
 ```
 
-| Status | Description |
-| --- | --- |
-| `requested` | Member has requested the book |
-| `issued` | Admin approved the request |
-| `returned` | Book has been returned |
-| `rejected` | Admin rejected the request |
+| Status | Meaning |
+| :--- | :--- |
+| 🟡 `requested` | Member has requested the book |
+| 🟢 `issued` | Admin approved the request |
+| 🔵 `returned` | Book has been returned |
+| 🔴 `rejected` | Admin rejected the request |
 
----
-
-## 💰 Fine Calculation
-
-Fines are calculated automatically by the backend when an issued book is returned after its due date.
-
-```text
-Due Date
-   ├── Returned on time → Fine = ₹0
-   └── Returned late    → Fine calculated
-```
+> 💰 **Fines** are calculated automatically by the backend (`utils/calculateFine.js`) when a book is returned after its due date.
 
 ---
 
 ## 🧠 Architecture
 
-```text
-                ┌─────────────────────┐
-                │       Browser       │
-                │    React + Vite     │
-                └──────────┬──────────┘
-                           │ HTTP / REST API
-                           ▼
-                ┌─────────────────────┐
-                │     Express API     │
-                │       Node.js       │
-                └──────────┬──────────┘
-         ┌─────────────────┼─────────────────┐
-         ▼                 ▼                 ▼
-    Auth Service      Book Service      Issue Service
-         └─────────────────┼─────────────────┘
-                           ▼
-                ┌─────────────────────┐
-                │       MongoDB       │
-                └─────────────────────┘
+```mermaid
+flowchart TB
+    U[🌐 Browser<br/>React + Vite + Tailwind] -->|REST API · JWT| API[⚙️ Express API<br/>Node.js]
+    API --> MW[🔒 Auth & Role Middleware]
+    MW --> S1[Auth Service]
+    MW --> S2[Book Service]
+    MW --> S3[Issue Service]
+    MW --> S4[Dashboard Service]
+    S1 --> DB[(🍃 MongoDB)]
+    S2 --> DB
+    S3 --> DB
+    S4 --> DB
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+<div align="center">
 
-| Technology | Purpose |
-| --- | --- |
-| React | UI development |
-| Vite | Dev/build tooling |
-| Tailwind CSS | Styling |
-| React Router | Routing |
-| Axios | API communication |
-| Lucide React | Icons |
+| Layer | Technologies |
+| :---: | :--- |
+| **Frontend** | React · Vite · Tailwind CSS · React Router · Axios · Lucide React |
+| **Backend** | Node.js · Express.js · Mongoose · JWT · bcrypt |
+| **Database** | MongoDB |
 
-**Backend**
-
-| Technology | Purpose |
-| --- | --- |
-| Node.js | Runtime |
-| Express.js | REST API |
-| MongoDB + Mongoose | Database & ODM |
-| JWT | Authentication |
-| bcrypt | Password hashing |
+</div>
 
 ---
 
 ## 📁 Project Structure
 
+<details>
+<summary><b>Click to expand</b></summary>
+
 ```text
-LIBRARY MANAGEMENT SYSTEM/
+library_management/
 ├── backend/
-│   ├── controllers/   (auth, book, dashboard, issue)
-│   ├── middleware/    (auth, role)
-│   ├── models/        (Book, Issue, User)
-│   ├── routes/        (auth, book, dashboard, issue)
-│   ├── services/      (auth, book, dashboard, issue)
-│   ├── utils/         (calculateFine.js)
+│   ├── controllers/     auth · book · dashboard · issue
+│   ├── middleware/      auth · role
+│   ├── models/          Book · Issue · User
+│   ├── routes/          auth · book · dashboard · issue
+│   ├── services/        auth · book · dashboard · issue
+│   ├── utils/           calculateFine.js
 │   ├── .env.example
 │   ├── package.json
 │   └── server.js
@@ -282,10 +259,10 @@ LIBRARY MANAGEMENT SYSTEM/
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── components/   (books, issues, common)
-│   │   ├── context/      (AuthContext.jsx)
-│   │   ├── pages/        (auth, admin, Dashboard, Books, Issues)
-│   │   ├── utils/        (axios.js)
+│   │   ├── components/  books · issues · common
+│   │   ├── context/     AuthContext.jsx
+│   │   ├── pages/       auth · admin · Dashboard · Books · Issues
+│   │   ├── utils/       axios.js
 │   │   ├── App.jsx
 │   │   ├── main.jsx
 │   │   └── index.css
@@ -297,70 +274,22 @@ LIBRARY MANAGEMENT SYSTEM/
 └── README.md
 ```
 
----
-
-## 🔌 API Endpoints
-
-<details>
-<summary><strong>Authentication</strong></summary>
-
-| Method | Endpoint | Access |
-| --- | --- | --- |
-| `POST` | `/api/auth/register` | Public |
-| `POST` | `/api/auth/login` | Public |
-| `GET` | `/api/auth/me` | Authenticated |
-
-</details>
-
-<details>
-<summary><strong>Books</strong></summary>
-
-| Method | Endpoint | Access |
-| --- | --- | --- |
-| `GET` | `/api/books` | Authenticated |
-| `POST` | `/api/books` | Admin |
-| `PUT` | `/api/books/:id` | Admin |
-| `DELETE` | `/api/books/:id` | Admin |
-
-</details>
-
-<details>
-<summary><strong>Issues</strong></summary>
-
-| Method | Endpoint | Access |
-| --- | --- | --- |
-| `GET` | `/api/issues` | Authenticated |
-| `GET` | `/api/issues/members` | Admin |
-| `POST` | `/api/issues/request` | Member |
-| `POST` | `/api/issues` | Admin |
-| `GET` | `/api/issues/requests` | Admin |
-| `PUT` | `/api/issues/:id/approve` | Admin |
-| `PUT` | `/api/issues/:id/reject` | Admin |
-| `PUT` | `/api/issues/:id/return` | Admin |
-
-</details>
-
-<details>
-<summary><strong>Dashboard</strong></summary>
-
-| Method | Endpoint | Access |
-| --- | --- | --- |
-| `GET` | `/api/dashboard` | Authenticated |
-
 </details>
 
 ---
 
-## ⚙️ Installation
+## ⚡ Quick Start
 
-### 1. Clone the repository
+**Prerequisites:** Node.js 18+, npm, and a MongoDB database (local or [MongoDB Atlas](https://www.mongodb.com/atlas)).
+
+### 1️⃣ Clone
 
 ```bash
 git clone https://github.com/rickchoudhary115/library_management.git
 cd library_management
 ```
 
-### 2. Backend setup
+### 2️⃣ Backend
 
 ```bash
 cd backend
@@ -379,11 +308,11 @@ JWT_SECRET=your_jwt_secret
 npm run dev
 ```
 
-Backend runs on `http://localhost:5000`
+➡️ Runs on **http://localhost:5000**
 
-### 3. Frontend setup
+### 3️⃣ Frontend
 
-Open another terminal:
+Open a new terminal:
 
 ```bash
 cd frontend
@@ -400,72 +329,132 @@ VITE_API_URL=http://localhost:5000/api
 npm run dev
 ```
 
-Open `http://localhost:5173`
+➡️ Open **http://localhost:5173**
 
-> ⚠️ Never commit your real `.env` files. Only `.env.example` files belong in the repository.
+> [!IMPORTANT]
+> Never commit real `.env` files. Only `.env.example` files belong in the repository.
+
+> [!TIP]
+> New accounts are created as **members**. To get an admin, register a user and change its `role` to `admin` in the database.
 
 ---
 
-## 👑 Roles
+## 🔌 API Reference
 
-| Role | Permissions |
-| --- | --- |
-| **Member** | Browse & search books, request books, view issues, track returns |
-| **Admin** | Everything a member can do, plus add/update/delete books, approve/reject requests, manually issue books, process returns, view members |
+<details>
+<summary><b>🔐 Authentication</b></summary>
+<br/>
+
+| Method | Endpoint | Access |
+| :---: | :--- | :---: |
+| `POST` | `/api/auth/register` | Public |
+| `POST` | `/api/auth/login` | Public |
+| `GET` | `/api/auth/me` | Authenticated |
+
+</details>
+
+<details>
+<summary><b>📚 Books</b></summary>
+<br/>
+
+| Method | Endpoint | Access |
+| :---: | :--- | :---: |
+| `GET` | `/api/books` | Authenticated |
+| `POST` | `/api/books` | Admin |
+| `PUT` | `/api/books/:id` | Admin |
+| `DELETE` | `/api/books/:id` | Admin |
+
+</details>
+
+<details>
+<summary><b>📋 Issues</b></summary>
+<br/>
+
+| Method | Endpoint | Access |
+| :---: | :--- | :---: |
+| `GET` | `/api/issues` | Authenticated |
+| `GET` | `/api/issues/members` | Admin |
+| `POST` | `/api/issues/request` | Member |
+| `POST` | `/api/issues` | Admin |
+| `GET` | `/api/issues/requests` | Admin |
+| `PUT` | `/api/issues/:id/approve` | Admin |
+| `PUT` | `/api/issues/:id/reject` | Admin |
+| `PUT` | `/api/issues/:id/return` | Admin |
+
+</details>
+
+<details>
+<summary><b>📊 Dashboard</b></summary>
+<br/>
+
+| Method | Endpoint | Access |
+| :---: | :--- | :---: |
+| `GET` | `/api/dashboard` | Authenticated |
+
+</details>
+
+---
+
+## 👑 Roles & Permissions
+
+| Capability | 👤 Member | 🛡️ Admin |
+| :--- | :---: | :---: |
+| Browse & search books | ✅ | ✅ |
+| Request a book | ✅ | ✅ |
+| View own issues & returns | ✅ | ✅ |
+| Add / edit / delete books | ❌ | ✅ |
+| Approve / reject requests | ❌ | ✅ |
+| Manually issue books | ❌ | ✅ |
+| Process returns | ❌ | ✅ |
+| View members | ❌ | ✅ |
 
 ---
 
 ## 🔒 Security
 
-- JWT authentication
-- Password hashing with bcrypt
-- Protected API routes
-- Role-based authorization
-- Protected frontend routes
-- Environment variable configuration
-- Server-side member identification for issue requests
+- 🔑 JWT authentication
+- 🧂 Password hashing with bcrypt
+- 🛑 Protected API routes
+- 👮 Role-based authorization
+- 🚧 Protected frontend routes
+- 🙈 Secrets kept in environment variables
+- 🪪 Member identity taken from the token on the server, not from the request body
 
 ---
 
-## 📱 Responsive Design
+## 🗺️ Roadmap
 
-Works across 💻 desktop, 🖥️ large screens, 📲 tablets and 📱 mobile devices.
-
----
-
-## 🧪 Future Improvements
-
+- [x] JWT authentication & role-based access
+- [x] Book catalog with search
+- [x] Request-based issue workflow
+- [x] Automatic fine calculation
+- [x] Member & admin dashboards
 - [ ] Email notifications
 - [ ] Book cover uploads
-- [ ] Advanced analytics & admin charts
+- [ ] Analytics & admin charts
 - [ ] Member profile page
 - [ ] Password reset & email verification
-- [ ] Pagination
-- [ ] Advanced book filtering & categories
-- [ ] Reading history
+- [ ] Pagination & advanced filtering
+- [ ] Book categories & reading history
 - [ ] Fine payment integration
 - [ ] Docker & cloud deployment
-- [ ] Automated testing
+- [ ] Automated tests
 
 ---
 
-## 🚀 Deployment
 
-| Layer | Options |
-| --- | --- |
-| Frontend | Vercel, Netlify |
-| Backend | Render, Railway, AWS |
-| Database | MongoDB Atlas |
 
 ---
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "feat: add your feature"`
-4. Push the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
+Contributions are welcome!
+
+1. 🍴 Fork the repository
+2. 🌿 Create a branch: `git checkout -b feature/your-feature`
+3. 💾 Commit: `git commit -m "feat: add your feature"`
+4. 🚀 Push: `git push origin feature/your-feature`
+5. 🔁 Open a Pull Request
 
 ---
 
@@ -475,16 +464,21 @@ This project is available for educational and development purposes.
 
 ---
 
-## 👨‍💻 Developer
-
-**Rick Choudhury** — Full-Stack Developer • AI/ML Developer
-
-Built with ❤️ using the MERN stack.
-
 <div align="center">
 
-### ⭐ If you found this project useful, consider giving it a star!
+## 👨‍💻 Developer
+
+**Anirban Choudhury**
+Full-Stack Developer • AI/ML Developer
+
+[![GitHub](https://img.shields.io/badge/GitHub-rickchoudhary115-181717?style=for-the-badge&logo=github)](https://github.com/rickchoudhary115)
+
+<br/>
+
+### ⭐ If you found this project useful, please give it a star!
 
 **📚 Learn More. Read More. Build More.**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:9333ea,50:4f46e5,100:0f0c29&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>
