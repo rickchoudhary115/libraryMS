@@ -1,3 +1,4 @@
+
 import mongoose from "mongoose";
 
 const issueSchema = new mongoose.Schema(
@@ -16,12 +17,12 @@ const issueSchema = new mongoose.Schema(
 
     issueDate: {
       type: Date,
-      default: Date.now,
+      default: null,
     },
 
     dueDate: {
       type: Date,
-      required: true,
+      default: null,
     },
 
     returnDate: {
@@ -31,8 +32,13 @@ const issueSchema = new mongoose.Schema(
 
     status: {
       type: String,
-      enum: ["issued", "returned"],
-      default: "issued",
+      enum: [
+        "requested",
+        "issued",
+        "returned",
+        "rejected",
+      ],
+      default: "requested",
     },
 
     fine: {
@@ -42,7 +48,8 @@ const issueSchema = new mongoose.Schema(
   },
   {
     timestamps: true,
-  },
+  }
 );
 
 export default mongoose.model("Issue", issueSchema);
+
