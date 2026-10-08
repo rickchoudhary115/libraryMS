@@ -8,6 +8,12 @@
 
 <br/>
 
+<a href="https://library-management-frontend-6kef.onrender.com/">
+  <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-8b5cf6?style=for-the-badge" alt="Live Demo"/>
+</a>
+
+<br/><br/>
+
 ![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
@@ -24,6 +30,7 @@
 
 ### Manage books, members, issue requests, returns and availability from one clean dashboard.
 
+[**Live Demo**](https://library-management-frontend-6kef.onrender.com/) •
 [**Features**](#-features) •
 [**Screenshots**](#-screenshots) •
 [**Workflow**](#-issue-workflow) •
@@ -71,6 +78,15 @@
 </td>
 </tr>
 </table>
+
+---
+
+## 🌐 Live Demo
+
+🔗 **[library-management-frontend-6kef.onrender.com](https://library-management-frontend-6kef.onrender.com/)**
+
+> [!NOTE]
+> The app is hosted on Render's free tier, so the first load may take 30-60 seconds while the server wakes up.
 
 ---
 
@@ -442,10 +458,6 @@ npm run dev
 
 ---
 
-
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome!
@@ -472,8 +484,6 @@ This project is available for educational and development purposes.
 Full-Stack Developer • AI/ML Developer
 
 [![GitHub](https://img.shields.io/badge/GitHub-rickchoudhary115-181717?style=for-the-badge&logo=github)](https://github.com/rickchoudhary115)
-
-<br/>
 
 ### ⭐ If you found this project useful, please give it a star!
 
