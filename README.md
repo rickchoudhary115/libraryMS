@@ -1,12 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:4f46e5,100:9333ea&height=220&section=header&text=LibraryMS&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Library%20Management%20System&fontFamily=Fira+Code" alt="LibraryMS" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:4f46e5,100:9333ea&height=220&section=header&text=LibraryMS&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Library%20Management%20System&descSize=22&descAlignY=60&animation=fadeIn" width="100%" alt="LibraryMS banner"/>
 
 <a href="https://github.com/rickchoudhary115/library_management">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&lines=Manage+books+%26+members+effortlessly;Request+%E2%9C%85+from+one+dashboard;Track+returns%2C+fines+%26+availability" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&lines=Manage+books+%26+members+effortlessly;Request+%E2%86%92+Approve+%E2%86%92+Return+workflow;Automatic+fine+calculation;Built+with+the+MERN+stack" alt="Typing animation"/>
 </a>
 
 <br/>
+
+<a href="https://library-management-frontend-6kef.onrender.com/">
+  <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-8b5cf6?style=for-the-badge" alt="Live Demo"/>
+</a>
+
+<br/><br/>
 
 ![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -24,8 +30,7 @@
 
 ### Manage books, members, issue requests, returns and availability from one clean dashboard.
 
-🚀 Live Demo: [LibraryMS on Render](https://library-management-frontend-6kef.onrender.com/)
-
+[**Live Demo**](https://library-management-frontend-6kef.onrender.com/) •
 [**Features**](#-features) •
 [**Screenshots**](#-screenshots) •
 [**Workflow**](#-issue-workflow) •
@@ -43,7 +48,7 @@
 
 ## ✨ Overview
 
-**LibraryMS** is a full-stack web application that replaces paper registers and spreadsheets with a modern digital library. It gives **members** a smooth way to discover and request books, and gives administrators a single place to approve requests, track returns, and monitor availability.
+**LibraryMS** is a full-stack web application that replaces paper registers and spreadsheets with a modern digital library. It gives **members** a smooth way to discover and request books, and gives **administrators** a powerful control center to run the whole operation.
 
 <table>
 <tr>
@@ -73,6 +78,15 @@
 </td>
 </tr>
 </table>
+
+---
+
+## 🌐 Live Demo
+
+🔗 **[library-management-frontend-6kef.onrender.com](https://library-management-frontend-6kef.onrender.com/)**
+
+> [!NOTE]
+> The app is hosted on Render's free tier, so the first load may take 30-60 seconds while the server wakes up.
 
 ---
 
@@ -444,8 +458,6 @@ npm run dev
 
 ---
 
----
-
 ## 🤝 Contributing
 
 Contributions are welcome!
@@ -472,8 +484,6 @@ This project is available for educational and development purposes.
 Full-Stack Developer • AI/ML Developer
 
 [![GitHub](https://img.shields.io/badge/GitHub-rickchoudhary115-181717?style=for-the-badge&logo=github)](https://github.com/rickchoudhary115)
-
-<br/>
 
 ### ⭐ If you found this project useful, please give it a star!
 
