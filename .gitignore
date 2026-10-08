@@ -13,7 +13,8 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
-
+#screenshots
+screenshots
 # Build output
 dist/
 build/
