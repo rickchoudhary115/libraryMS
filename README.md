@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:4f46e5,100:9333ea&height=220&section=header&text=LibraryMS&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Library%20Management%20System&descSize=22&descAlignY=60&animation=fadeIn" width="100%" alt="LibraryMS banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:4f46e5,100:9333ea&height=220&section=header&text=LibraryMS&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Library%20Management%20System&fontFamily=Fira+Code" alt="LibraryMS" width="100%"/>
 
 <a href="https://github.com/rickchoudhary115/library_management">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&lines=Manage+books+%26+members+effortlessly;Request+%E2%86%92+Approve+%E2%86%92+Return+workflow;Automatic+fine+calculation;Built+with+the+MERN+stack" alt="Typing animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&lines=Manage+books+%26+members+effortlessly;Request+%E2%9C%85+from+one+dashboard;Track+returns%2C+fines+%26+availability" alt="Typing SVG"/>
 </a>
 
 <br/>
@@ -24,6 +24,8 @@
 
 ### Manage books, members, issue requests, returns and availability from one clean dashboard.
 
+🚀 Live Demo: [LibraryMS on Render](https://library-management-frontend-6kef.onrender.com/)
+
 [**Features**](#-features) •
 [**Screenshots**](#-screenshots) •
 [**Workflow**](#-issue-workflow) •
@@ -41,7 +43,7 @@
 
 ## ✨ Overview
 
-**LibraryMS** is a full-stack web application that replaces paper registers and spreadsheets with a modern digital library. It gives **members** a smooth way to discover and request books, and gives **administrators** a powerful control center to run the whole operation.
+**LibraryMS** is a full-stack web application that replaces paper registers and spreadsheets with a modern digital library. It gives **members** a smooth way to discover and request books, and gives administrators a single place to approve requests, track returns, and monitor availability.
 
 <table>
 <tr>
@@ -441,8 +443,6 @@ npm run dev
 - [ ] Automated tests
 
 ---
-
-
 
 ---
 
